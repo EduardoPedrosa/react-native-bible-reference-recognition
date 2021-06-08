@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@config/*": ["./src/config/*"],
+      "@utils/*": ["./src/utils/*"]
+      // "@assets/*": ["./src/assets/*"],
+      // "@redux/*": ["./src/redux/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
