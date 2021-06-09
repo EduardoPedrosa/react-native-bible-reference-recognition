@@ -1,19 +1,26 @@
 import React, { Component } from "react"
-import { View, Text, StyleSheet } from "react-native"
+import { ScrollView, View, StyleSheet } from "react-native"
+
+import Text from "@components/UI/Text"
 
 import requestApi from "@utils/requestApi"
 
 const styles = StyleSheet.create({
+  root: {
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+  },
   verseContainer: {
     flexDirection: "row",
   },
   number: {
     fontWeight: "bold",
-    paddingRight: 5,
     color: "#444",
   },
   text: {
+    fontSize: 15,
     color: "#666",
+    textAlign: "justify",
   },
 })
 
@@ -35,14 +42,14 @@ class Reference extends Component {
 
   render() {
     return (
-      <View>
+      <ScrollView style={styles.root}>
         {this.state.verses.map((v) => (
-          <View style={styles.verseContainer}>
-            <Text style={styles.number}>{v.number}</Text>
-            <Text style={styles.text}>{v.text}</Text>
-          </View>
+          <Text style={styles.text}>
+            <Text style={styles.number}>{`${v.number}  `}</Text>
+            {v.text}
+          </Text>
         ))}
-      </View>
+      </ScrollView>
     )
   }
 }

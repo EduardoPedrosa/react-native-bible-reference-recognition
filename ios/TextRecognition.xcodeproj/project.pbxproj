@@ -12,6 +12,79 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		32210FD31DE246B0A9992D22 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1284E0941443DC8594C365 /* Raleway-VariableFont_wght.ttf */; };
+		CF2485E7AB194BAFB7CF47F8 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF3AFB2D5AF4C429CCA025E /* Raleway-Black.ttf */; };
+		5ED22EBA155141D09F5AE900 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FAEAC4276D413688B45CBD /* Raleway-BlackItalic.ttf */; };
+		9B3FAB72CD594E5E94DB9AF7 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9A6FAA3A749C2A8EAED01 /* Raleway-Bold.ttf */; };
+		628C4FB913D54821971C6E2B /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6D34A305E54593B4D43F10 /* Raleway-BoldItalic.ttf */; };
+		36F1F80B9E254B749B9313DC /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7A0E80A17024DC6AA948C5C /* Raleway-ExtraBold.ttf */; };
+		32F7A3B2EBA44014875AFFC5 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F426683E532640DAAE4DD639 /* Raleway-ExtraBoldItalic.ttf */; };
+		902E75F8FE8F4A2FB0E428D1 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C1D7A26A14CE5BAB30850 /* Raleway-ExtraLight.ttf */; };
+		497137E7A4C6479F81E96942 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACFF40BBD43D4851ADCBD450 /* Raleway-ExtraLightItalic.ttf */; };
+		02951CB6E10A48E6963B08A1 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 052BAAA309BB4CCBB05DC661 /* Raleway-Italic.ttf */; };
+		CB912A446AFC4B2E9D4B3101 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79A45CE28E0148FEA1FF09C9 /* Raleway-Light.ttf */; };
+		66920DDA1F3D426893BA40AF /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6665E06EF3D54E85B463CBA9 /* Raleway-LightItalic.ttf */; };
+		5A8A7E78A8574B059F54F1C7 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E0B1502F5484D9D7877CF /* Raleway-Medium.ttf */; };
+		A7029E85CC0E4434A91DBD58 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B37B78AD434C6FBA6AE656 /* Raleway-MediumItalic.ttf */; };
+		1D6171196CB34495A92CD731 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 760FAEC290A9482FB0095CE5 /* Raleway-Regular.ttf */; };
+		1ECC78CC6AF04F8EBD7BA6BC /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B8DB59194084A45AE38B334 /* Raleway-SemiBold.ttf */; };
+		B04A349C32B64579A5AE7EB7 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F041D901E144CA382CB4F09 /* Raleway-SemiBoldItalic.ttf */; };
+		9F6F1B7189C442BCBB178BE1 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B0C2D49A9F546FA88B1EB96 /* Raleway-Thin.ttf */; };
+		2068095E006944B6A733981F /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BFC96D2BC0042C1B89006BC /* Raleway-ThinItalic.ttf */; };
+		34C6FE614A75462FB39CF2C6 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83207BCCF1E64B32A632CAC9 /* AntDesign.ttf */; };
+		CBE1AF5763CE4C6AAD26DC86 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87677ACAB22843F2916EB370 /* Entypo.ttf */; };
+		F5E07BD3CE35426BAE518D8B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15780ECF3CBC4B8AA9CCB6BB /* EvilIcons.ttf */; };
+		FEB8A8D76A6C41FB8AFFC92A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3288C977907E498390DD4C98 /* Feather.ttf */; };
+		BA7304DE63F9469EBAACC3EC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73662C1D633488F88026C23 /* FontAwesome.ttf */; };
+		4E064247F3CB4D88AB0E8BBA /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89C608C04A914493AD78998F /* FontAwesome5_Brands.ttf */; };
+		87C7101364334D81A680A95F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75BE7966518D4DF4921373D7 /* FontAwesome5_Regular.ttf */; };
+		4DAC5B8D72764CC68A853CEF /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D4BF8EC0F9488EB546E53E /* FontAwesome5_Solid.ttf */; };
+		1B63F080876143D283428601 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EEA7F299A214D628C9CE169 /* Fontisto.ttf */; };
+		F572F50EB7FE43D5B527D880 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79D712BCD6842A39A699442 /* Foundation.ttf */; };
+		5E1BBC85C9544348A332F773 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30A3DC6D795C4EAAA0E84E4D /* Ionicons.ttf */; };
+		EF0FA188B19A455E92037DA5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281AEB73427640458D806289 /* MaterialCommunityIcons.ttf */; };
+		4832497993C54F7F8C44AB93 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA3ED8D3A0045B1A061CBEC /* MaterialIcons.ttf */; };
+		64ABD31873E34A2AA00F7553 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6025C86103AF4091BE4F3659 /* Octicons.ttf */; };
+		D4ABABC8B1284582ABC66F8A /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DBFCB08F9D4D7FB1345FA4 /* SimpleLineIcons.ttf */; };
+		DAD35A9DCC7A469FB36BE1D7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B16BAA2E745688A13B058 /* Zocial.ttf */; };
+		BB79E9D922A449A1B0E80B9D /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47F358DEED81446B97AB0E0E /* Raleway-VariableFont_wght.ttf */; };
+		7F18F78A15E746E7BF74E8A3 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 086247340DE040B3BB776746 /* Raleway-Black.ttf */; };
+		2DF2A680B58D416CB7C01076 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69134AC93E9D43B5A3C89E38 /* Raleway-BlackItalic.ttf */; };
+		206E3C37B7A046809D2BBD29 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9731920CE5CC40D983DD4DEB /* Raleway-Bold.ttf */; };
+		471C9E9F57014155BBCF898A /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2070C78E5F804E16A7263C8E /* Raleway-BoldItalic.ttf */; };
+		B543FCB37EF24A43A2344899 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F70F5CE08974EFF8868581F /* Raleway-ExtraBold.ttf */; };
+		BCB62038A7914EC498F2BCCD /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F535C50155694BAA820D0D00 /* Raleway-ExtraBoldItalic.ttf */; };
+		6A56869A8B124C16B79B45D7 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4709C77F03984EA8B1BA5E0F /* Raleway-ExtraLight.ttf */; };
+		AC796562B11F46B49E2E7F48 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37B94FACA7DD422291BD5FEA /* Raleway-ExtraLightItalic.ttf */; };
+		D91B17611797459CADD7D728 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE84CC3FCDCC432A8995755B /* Raleway-Italic.ttf */; };
+		13F6A744AC1040BABF685E27 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC1FB04E5A9C40189359A028 /* Raleway-Light.ttf */; };
+		3699383A63A94F8C9B1B8DD7 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4CC56944664B4697A5391F /* Raleway-LightItalic.ttf */; };
+		DB9DE2ED6CC2400B8BD544C5 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB64220A7B4350847AB4BE /* Raleway-Medium.ttf */; };
+		1413B331113A4F4DA1E127BC /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69D00BD0CF644547918B938E /* Raleway-MediumItalic.ttf */; };
+		32CBF9023D3B42BD95537CC5 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E868E4F0A80E44ACB5ADE7FE /* Raleway-Regular.ttf */; };
+		BD15319537C149F79579EC0A /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F278E3F73DD460BB70C9C33 /* Raleway-SemiBold.ttf */; };
+		D6205CF4B4664D589B1C8629 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47BE4DC79B84FAA96E44C5F /* Raleway-SemiBoldItalic.ttf */; };
+		77ABF75D7EA24E468CFCC0A0 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35B6407CA364B7695AB70D8 /* Raleway-Thin.ttf */; };
+		5F1060B857A946D4AD89DD5E /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE266BE61A204F60A6F45027 /* Raleway-ThinItalic.ttf */; };
+		835467D12225429998A038E1 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46D7D4DE07864D66B8AF7FDD /* Raleway-Italic-VariableFont_wght.ttf */; };
+		3C951AA3B19545F99B063358 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5C52128BBD4DFC86298CFB /* Montserrat-Black.ttf */; };
+		A6C8E9615DCA40CF86AFC0A6 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1AD59DD6DF24CEAB5D566FE /* Montserrat-BlackItalic.ttf */; };
+		063D38DE39C24EDF9EA7F4CE /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7BD13F305540F5B2B3CA4F /* Montserrat-Bold.ttf */; };
+		B80D6252C17A4434BB0698DD /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F96D39D6CDD44E0586E1423D /* Montserrat-BoldItalic.ttf */; };
+		2B266B6E7A2F4CC3948209AD /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F00940E1EF4E7E897FFFDE /* Montserrat-ExtraBold.ttf */; };
+		21EF624C702E4B05B0415991 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6216B893B3A74995990F5875 /* Montserrat-ExtraBoldItalic.ttf */; };
+		25E470A3989B4FC595A0903F /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EECA8DB144B48B5B89DF719 /* Montserrat-ExtraLight.ttf */; };
+		361FA5291C92484EB04905F9 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F41BBD2598244D39C8E77A4 /* Montserrat-ExtraLightItalic.ttf */; };
+		F2AB6E58FABF410C9B3C3A7B /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4394C2FDB07F47BAB73BDFE8 /* Montserrat-Italic.ttf */; };
+		4B52B7A5FBCE4C229CFE67FE /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F62EA16823D4C4CB368156F /* Montserrat-Light.ttf */; };
+		03D8BF2D59EC414099F77245 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12610E4B75024843BE2F3AF9 /* Montserrat-LightItalic.ttf */; };
+		4242BF357AF14E6CBFFC05F2 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC3B0D98E70416096DA574C /* Montserrat-Medium.ttf */; };
+		0FDDC0CB437745ACA42242BD /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCF1C94F1BA94CB59F022B09 /* Montserrat-MediumItalic.ttf */; };
+		B5765D4A212C4FCBA6C4ECE1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC6F2A3ECB41B4882F3070 /* Montserrat-Regular.ttf */; };
+		93CE54B560574189A48C46EB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC652D79D28D4202AB69F71B /* Montserrat-SemiBold.ttf */; };
+		90A374C2AC874F06B1127FE4 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 480832AC74814531BD2B1DEC /* Montserrat-SemiBoldItalic.ttf */; };
+		B70697EFCADC4212B7D205E7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7191CD19A4970AF1A90F5 /* Montserrat-Thin.ttf */; };
+		50A790AD06B244A1A86AEF37 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E031B8A525AC4165A7FEBB24 /* Montserrat-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +109,79 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TextRecognition/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TextRecognition/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1E1284E0941443DC8594C365 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Raleway-VariableFont_wght.ttf"; path = "../src/assets/fonts/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CF3AFB2D5AF4C429CCA025E /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../src/assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8FAEAC4276D413688B45CBD /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../src/assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7BA9A6FAA3A749C2A8EAED01 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../src/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C6D34A305E54593B4D43F10 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../src/assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7A0E80A17024DC6AA948C5C /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../src/assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F426683E532640DAAE4DD639 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E8C1D7A26A14CE5BAB30850 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../src/assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACFF40BBD43D4851ADCBD450 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		052BAAA309BB4CCBB05DC661 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic.ttf"; path = "../src/assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79A45CE28E0148FEA1FF09C9 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../src/assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6665E06EF3D54E85B463CBA9 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../src/assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A3E0B1502F5484D9D7877CF /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../src/assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9B37B78AD434C6FBA6AE656 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../src/assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		760FAEC290A9482FB0095CE5 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B8DB59194084A45AE38B334 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../src/assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F041D901E144CA382CB4F09 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B0C2D49A9F546FA88B1EB96 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../src/assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BFC96D2BC0042C1B89006BC /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../src/assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83207BCCF1E64B32A632CAC9 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87677ACAB22843F2916EB370 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15780ECF3CBC4B8AA9CCB6BB /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3288C977907E498390DD4C98 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C73662C1D633488F88026C23 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89C608C04A914493AD78998F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75BE7966518D4DF4921373D7 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4D4BF8EC0F9488EB546E53E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8EEA7F299A214D628C9CE169 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D79D712BCD6842A39A699442 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30A3DC6D795C4EAAA0E84E4D /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		281AEB73427640458D806289 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDA3ED8D3A0045B1A061CBEC /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6025C86103AF4091BE4F3659 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9DBFCB08F9D4D7FB1345FA4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F0B16BAA2E745688A13B058 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47F358DEED81446B97AB0E0E /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Raleway-VariableFont_wght.ttf"; path = "../src/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		086247340DE040B3BB776746 /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69134AC93E9D43B5A3C89E38 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9731920CE5CC40D983DD4DEB /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2070C78E5F804E16A7263C8E /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F70F5CE08974EFF8868581F /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../src/assets/fonts/Raleway/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F535C50155694BAA820D0D00 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4709C77F03984EA8B1BA5E0F /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../src/assets/fonts/Raleway/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37B94FACA7DD422291BD5FEA /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE84CC3FCDCC432A8995755B /* Raleway-Italic.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC1FB04E5A9C40189359A028 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA4CC56944664B4697A5391F /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AFB64220A7B4350847AB4BE /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69D00BD0CF644547918B938E /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E868E4F0A80E44ACB5ADE7FE /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F278E3F73DD460BB70C9C33 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../src/assets/fonts/Raleway/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D47BE4DC79B84FAA96E44C5F /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C35B6407CA364B7695AB70D8 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../src/assets/fonts/Raleway/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE266BE61A204F60A6F45027 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../src/assets/fonts/Raleway/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46D7D4DE07864D66B8AF7FDD /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF5C52128BBD4DFC86298CFB /* Montserrat-Black.ttf */ = {isa = PBXFileReference; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1AD59DD6DF24CEAB5D566FE /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B7BD13F305540F5B2B3CA4F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F96D39D6CDD44E0586E1423D /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87F00940E1EF4E7E897FFFDE /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6216B893B3A74995990F5875 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EECA8DB144B48B5B89DF719 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F41BBD2598244D39C8E77A4 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4394C2FDB07F47BAB73BDFE8 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F62EA16823D4C4CB368156F /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12610E4B75024843BE2F3AF9 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCC3B0D98E70416096DA574C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CCF1C94F1BA94CB59F022B09 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FCC6F2A3ECB41B4882F3070 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC652D79D28D4202AB69F71B /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		480832AC74814531BD2B1DEC /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FC7191CD19A4970AF1A90F5 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E031B8A525AC4165A7FEBB24 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +255,7 @@
 				00E356EF1AD99517003FC87E /* TextRecognitionTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				1F156BC7CC2C4629A7E971F2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +270,87 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		1F156BC7CC2C4629A7E971F2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1E1284E0941443DC8594C365 /* Raleway-VariableFont_wght.ttf */,
+				9CF3AFB2D5AF4C429CCA025E /* Raleway-Black.ttf */,
+				A8FAEAC4276D413688B45CBD /* Raleway-BlackItalic.ttf */,
+				7BA9A6FAA3A749C2A8EAED01 /* Raleway-Bold.ttf */,
+				9C6D34A305E54593B4D43F10 /* Raleway-BoldItalic.ttf */,
+				E7A0E80A17024DC6AA948C5C /* Raleway-ExtraBold.ttf */,
+				F426683E532640DAAE4DD639 /* Raleway-ExtraBoldItalic.ttf */,
+				0E8C1D7A26A14CE5BAB30850 /* Raleway-ExtraLight.ttf */,
+				ACFF40BBD43D4851ADCBD450 /* Raleway-ExtraLightItalic.ttf */,
+				052BAAA309BB4CCBB05DC661 /* Raleway-Italic.ttf */,
+				79A45CE28E0148FEA1FF09C9 /* Raleway-Light.ttf */,
+				6665E06EF3D54E85B463CBA9 /* Raleway-LightItalic.ttf */,
+				7A3E0B1502F5484D9D7877CF /* Raleway-Medium.ttf */,
+				F9B37B78AD434C6FBA6AE656 /* Raleway-MediumItalic.ttf */,
+				760FAEC290A9482FB0095CE5 /* Raleway-Regular.ttf */,
+				0B8DB59194084A45AE38B334 /* Raleway-SemiBold.ttf */,
+				1F041D901E144CA382CB4F09 /* Raleway-SemiBoldItalic.ttf */,
+				5B0C2D49A9F546FA88B1EB96 /* Raleway-Thin.ttf */,
+				6BFC96D2BC0042C1B89006BC /* Raleway-ThinItalic.ttf */,
+				83207BCCF1E64B32A632CAC9 /* AntDesign.ttf */,
+				87677ACAB22843F2916EB370 /* Entypo.ttf */,
+				15780ECF3CBC4B8AA9CCB6BB /* EvilIcons.ttf */,
+				3288C977907E498390DD4C98 /* Feather.ttf */,
+				C73662C1D633488F88026C23 /* FontAwesome.ttf */,
+				89C608C04A914493AD78998F /* FontAwesome5_Brands.ttf */,
+				75BE7966518D4DF4921373D7 /* FontAwesome5_Regular.ttf */,
+				C4D4BF8EC0F9488EB546E53E /* FontAwesome5_Solid.ttf */,
+				8EEA7F299A214D628C9CE169 /* Fontisto.ttf */,
+				D79D712BCD6842A39A699442 /* Foundation.ttf */,
+				30A3DC6D795C4EAAA0E84E4D /* Ionicons.ttf */,
+				281AEB73427640458D806289 /* MaterialCommunityIcons.ttf */,
+				CDA3ED8D3A0045B1A061CBEC /* MaterialIcons.ttf */,
+				6025C86103AF4091BE4F3659 /* Octicons.ttf */,
+				D9DBFCB08F9D4D7FB1345FA4 /* SimpleLineIcons.ttf */,
+				4F0B16BAA2E745688A13B058 /* Zocial.ttf */,
+				47F358DEED81446B97AB0E0E /* Raleway-VariableFont_wght.ttf */,
+				086247340DE040B3BB776746 /* Raleway-Black.ttf */,
+				69134AC93E9D43B5A3C89E38 /* Raleway-BlackItalic.ttf */,
+				9731920CE5CC40D983DD4DEB /* Raleway-Bold.ttf */,
+				2070C78E5F804E16A7263C8E /* Raleway-BoldItalic.ttf */,
+				1F70F5CE08974EFF8868581F /* Raleway-ExtraBold.ttf */,
+				F535C50155694BAA820D0D00 /* Raleway-ExtraBoldItalic.ttf */,
+				4709C77F03984EA8B1BA5E0F /* Raleway-ExtraLight.ttf */,
+				37B94FACA7DD422291BD5FEA /* Raleway-ExtraLightItalic.ttf */,
+				AE84CC3FCDCC432A8995755B /* Raleway-Italic.ttf */,
+				AC1FB04E5A9C40189359A028 /* Raleway-Light.ttf */,
+				EA4CC56944664B4697A5391F /* Raleway-LightItalic.ttf */,
+				5AFB64220A7B4350847AB4BE /* Raleway-Medium.ttf */,
+				69D00BD0CF644547918B938E /* Raleway-MediumItalic.ttf */,
+				E868E4F0A80E44ACB5ADE7FE /* Raleway-Regular.ttf */,
+				5F278E3F73DD460BB70C9C33 /* Raleway-SemiBold.ttf */,
+				D47BE4DC79B84FAA96E44C5F /* Raleway-SemiBoldItalic.ttf */,
+				C35B6407CA364B7695AB70D8 /* Raleway-Thin.ttf */,
+				BE266BE61A204F60A6F45027 /* Raleway-ThinItalic.ttf */,
+				46D7D4DE07864D66B8AF7FDD /* Raleway-Italic-VariableFont_wght.ttf */,
+				BF5C52128BBD4DFC86298CFB /* Montserrat-Black.ttf */,
+				A1AD59DD6DF24CEAB5D566FE /* Montserrat-BlackItalic.ttf */,
+				1B7BD13F305540F5B2B3CA4F /* Montserrat-Bold.ttf */,
+				F96D39D6CDD44E0586E1423D /* Montserrat-BoldItalic.ttf */,
+				87F00940E1EF4E7E897FFFDE /* Montserrat-ExtraBold.ttf */,
+				6216B893B3A74995990F5875 /* Montserrat-ExtraBoldItalic.ttf */,
+				1EECA8DB144B48B5B89DF719 /* Montserrat-ExtraLight.ttf */,
+				6F41BBD2598244D39C8E77A4 /* Montserrat-ExtraLightItalic.ttf */,
+				4394C2FDB07F47BAB73BDFE8 /* Montserrat-Italic.ttf */,
+				8F62EA16823D4C4CB368156F /* Montserrat-Light.ttf */,
+				12610E4B75024843BE2F3AF9 /* Montserrat-LightItalic.ttf */,
+				BCC3B0D98E70416096DA574C /* Montserrat-Medium.ttf */,
+				CCF1C94F1BA94CB59F022B09 /* Montserrat-MediumItalic.ttf */,
+				0FCC6F2A3ECB41B4882F3070 /* Montserrat-Regular.ttf */,
+				DC652D79D28D4202AB69F71B /* Montserrat-SemiBold.ttf */,
+				480832AC74814531BD2B1DEC /* Montserrat-SemiBoldItalic.ttf */,
+				0FC7191CD19A4970AF1A90F5 /* Montserrat-Thin.ttf */,
+				E031B8A525AC4165A7FEBB24 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +442,79 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				32210FD31DE246B0A9992D22 /* Raleway-VariableFont_wght.ttf in Resources */,
+				CF2485E7AB194BAFB7CF47F8 /* Raleway-Black.ttf in Resources */,
+				5ED22EBA155141D09F5AE900 /* Raleway-BlackItalic.ttf in Resources */,
+				9B3FAB72CD594E5E94DB9AF7 /* Raleway-Bold.ttf in Resources */,
+				628C4FB913D54821971C6E2B /* Raleway-BoldItalic.ttf in Resources */,
+				36F1F80B9E254B749B9313DC /* Raleway-ExtraBold.ttf in Resources */,
+				32F7A3B2EBA44014875AFFC5 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				902E75F8FE8F4A2FB0E428D1 /* Raleway-ExtraLight.ttf in Resources */,
+				497137E7A4C6479F81E96942 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				02951CB6E10A48E6963B08A1 /* Raleway-Italic.ttf in Resources */,
+				CB912A446AFC4B2E9D4B3101 /* Raleway-Light.ttf in Resources */,
+				66920DDA1F3D426893BA40AF /* Raleway-LightItalic.ttf in Resources */,
+				5A8A7E78A8574B059F54F1C7 /* Raleway-Medium.ttf in Resources */,
+				A7029E85CC0E4434A91DBD58 /* Raleway-MediumItalic.ttf in Resources */,
+				1D6171196CB34495A92CD731 /* Raleway-Regular.ttf in Resources */,
+				1ECC78CC6AF04F8EBD7BA6BC /* Raleway-SemiBold.ttf in Resources */,
+				B04A349C32B64579A5AE7EB7 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				9F6F1B7189C442BCBB178BE1 /* Raleway-Thin.ttf in Resources */,
+				2068095E006944B6A733981F /* Raleway-ThinItalic.ttf in Resources */,
+				34C6FE614A75462FB39CF2C6 /* AntDesign.ttf in Resources */,
+				CBE1AF5763CE4C6AAD26DC86 /* Entypo.ttf in Resources */,
+				F5E07BD3CE35426BAE518D8B /* EvilIcons.ttf in Resources */,
+				FEB8A8D76A6C41FB8AFFC92A /* Feather.ttf in Resources */,
+				BA7304DE63F9469EBAACC3EC /* FontAwesome.ttf in Resources */,
+				4E064247F3CB4D88AB0E8BBA /* FontAwesome5_Brands.ttf in Resources */,
+				87C7101364334D81A680A95F /* FontAwesome5_Regular.ttf in Resources */,
+				4DAC5B8D72764CC68A853CEF /* FontAwesome5_Solid.ttf in Resources */,
+				1B63F080876143D283428601 /* Fontisto.ttf in Resources */,
+				F572F50EB7FE43D5B527D880 /* Foundation.ttf in Resources */,
+				5E1BBC85C9544348A332F773 /* Ionicons.ttf in Resources */,
+				EF0FA188B19A455E92037DA5 /* MaterialCommunityIcons.ttf in Resources */,
+				4832497993C54F7F8C44AB93 /* MaterialIcons.ttf in Resources */,
+				64ABD31873E34A2AA00F7553 /* Octicons.ttf in Resources */,
+				D4ABABC8B1284582ABC66F8A /* SimpleLineIcons.ttf in Resources */,
+				DAD35A9DCC7A469FB36BE1D7 /* Zocial.ttf in Resources */,
+				BB79E9D922A449A1B0E80B9D /* Raleway-VariableFont_wght.ttf in Resources */,
+				7F18F78A15E746E7BF74E8A3 /* Raleway-Black.ttf in Resources */,
+				2DF2A680B58D416CB7C01076 /* Raleway-BlackItalic.ttf in Resources */,
+				206E3C37B7A046809D2BBD29 /* Raleway-Bold.ttf in Resources */,
+				471C9E9F57014155BBCF898A /* Raleway-BoldItalic.ttf in Resources */,
+				B543FCB37EF24A43A2344899 /* Raleway-ExtraBold.ttf in Resources */,
+				BCB62038A7914EC498F2BCCD /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				6A56869A8B124C16B79B45D7 /* Raleway-ExtraLight.ttf in Resources */,
+				AC796562B11F46B49E2E7F48 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				D91B17611797459CADD7D728 /* Raleway-Italic.ttf in Resources */,
+				13F6A744AC1040BABF685E27 /* Raleway-Light.ttf in Resources */,
+				3699383A63A94F8C9B1B8DD7 /* Raleway-LightItalic.ttf in Resources */,
+				DB9DE2ED6CC2400B8BD544C5 /* Raleway-Medium.ttf in Resources */,
+				1413B331113A4F4DA1E127BC /* Raleway-MediumItalic.ttf in Resources */,
+				32CBF9023D3B42BD95537CC5 /* Raleway-Regular.ttf in Resources */,
+				BD15319537C149F79579EC0A /* Raleway-SemiBold.ttf in Resources */,
+				D6205CF4B4664D589B1C8629 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				77ABF75D7EA24E468CFCC0A0 /* Raleway-Thin.ttf in Resources */,
+				5F1060B857A946D4AD89DD5E /* Raleway-ThinItalic.ttf in Resources */,
+				835467D12225429998A038E1 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
+				3C951AA3B19545F99B063358 /* Montserrat-Black.ttf in Resources */,
+				A6C8E9615DCA40CF86AFC0A6 /* Montserrat-BlackItalic.ttf in Resources */,
+				063D38DE39C24EDF9EA7F4CE /* Montserrat-Bold.ttf in Resources */,
+				B80D6252C17A4434BB0698DD /* Montserrat-BoldItalic.ttf in Resources */,
+				2B266B6E7A2F4CC3948209AD /* Montserrat-ExtraBold.ttf in Resources */,
+				21EF624C702E4B05B0415991 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				25E470A3989B4FC595A0903F /* Montserrat-ExtraLight.ttf in Resources */,
+				361FA5291C92484EB04905F9 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				F2AB6E58FABF410C9B3C3A7B /* Montserrat-Italic.ttf in Resources */,
+				4B52B7A5FBCE4C229CFE67FE /* Montserrat-Light.ttf in Resources */,
+				03D8BF2D59EC414099F77245 /* Montserrat-LightItalic.ttf in Resources */,
+				4242BF357AF14E6CBFFC05F2 /* Montserrat-Medium.ttf in Resources */,
+				0FDDC0CB437745ACA42242BD /* Montserrat-MediumItalic.ttf in Resources */,
+				B5765D4A212C4FCBA6C4ECE1 /* Montserrat-Regular.ttf in Resources */,
+				93CE54B560574189A48C46EB /* Montserrat-SemiBold.ttf in Resources */,
+				90A374C2AC874F06B1127FE4 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				B70697EFCADC4212B7D205E7 /* Montserrat-Thin.ttf in Resources */,
+				50A790AD06B244A1A86AEF37 /* Montserrat-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

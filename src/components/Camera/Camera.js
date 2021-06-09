@@ -115,7 +115,7 @@ export default class OCRScreen extends React.Component {
     let founded = false
     textBlocks.forEach((block) => {
       const biblicalRegex =
-        /(\d)?(\s)?[a-z, A-Z]{1,3}(\s)?(\d+)([:\.\,](\d+)(-(\d+))?)?/
+        /(\d)?(\s)?[a-z, A-Z]{1,3}(\s)?(\d+)([:\.](\d+)([-,](\d+))?)?/
       const value = block.value
       if (this.isInRectOfInterest(block.bounds)) {
         if (biblicalRegex.test(value)) {
