@@ -1,14 +1,17 @@
 import React, { useRef } from "react"
-import { NavigationContainer } from "@react-navigation/native"
+
 // import analytics from "@react-native-firebase/analytics"
 import { navigationRef } from "./RootNavigation"
 
-export default ({ children }) => {
+import { NavigationContainer } from "@react-navigation/native"
+
+export default ({ children, theme }) => {
   const routeNameRef = useRef()
 
   return (
     <NavigationContainer
       ref={navigationRef}
+      theme={theme}
       onReady={() =>
         (routeNameRef.current = navigationRef.current.getCurrentRoute().name)
       }

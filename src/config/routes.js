@@ -10,7 +10,10 @@ const Stack = createStackNavigator()
 
 function StackRoutes() {
   return (
-    <Stack.Navigator initialRouteName="Home">
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{ headerTitle: false }}
+    >
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Reference" component={Reference} />
       <Stack.Screen name="Camera" component={Camera} />

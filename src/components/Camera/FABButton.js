@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import { View, StyleSheet, Dimensions } from "react-native"
 import { FAB } from "react-native-paper"
 
+import colors from "@utils/theme/colors"
+
 const { height: HEIGHT } = Dimensions.get("window")
 
 const styles = StyleSheet.create({
@@ -10,7 +12,9 @@ const styles = StyleSheet.create({
     bottom: HEIGHT * 0.2,
   },
   fab: {
+    minWidth: 150,
     zIndex: 9999,
+    backgroundColor: colors.primary,
   },
 })
 

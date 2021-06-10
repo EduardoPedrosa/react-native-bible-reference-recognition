@@ -6,9 +6,9 @@
     "paths": {
       "@components/*": ["./src/components/*"],
       "@config/*": ["./src/config/*"],
-      "@utils/*": ["./src/utils/*"]
-      // "@assets/*": ["./src/assets/*"],
-      // "@redux/*": ["./src/redux/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@redux/*": ["./src/redux/*"]
+      // "@assets/*": ["./src/assets/*"]
     }
   },
   "exclude": ["node_modules"]

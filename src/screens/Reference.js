@@ -1,9 +1,11 @@
 import React, { Component } from "react"
 import { ScrollView, View, StyleSheet } from "react-native"
 
+import ActivityIndicator from "@components/UI/ActivityIndicator"
 import Text from "@components/UI/Text"
 
 import requestApi from "@utils/requestApi"
+import colors from "@utils/theme/colors"
 
 const styles = StyleSheet.create({
   root: {
@@ -15,17 +17,31 @@ const styles = StyleSheet.create({
   },
   number: {
     fontWeight: "bold",
-    color: "#444",
+    color: colors.primaryText,
   },
   text: {
-    fontSize: 15,
-    color: "#666",
-    textAlign: "justify",
+    marginVertical: 4,
+    fontSize: 18,
+    color: colors.secondabryText,
+  },
+  reference: {
+    fontSize: 24,
+    color: colors.primaryText,
+    marginBottom: 16,
+  },
+  error: {
+    marginVertical: 16,
+    fontSize: 18,
+    textAlign: "center",
+    color: colors.secondaryText,
   },
 })
 
 class Reference extends Component {
   state = {
+    loading: true,
+    error: false,
+    reference: null,
     verses: [],
   }
 
@@ -35,14 +51,34 @@ class Reference extends Component {
       url: `/reference/${reference}`,
     })
       .then((resp) => {
-        this.setState({ verses: resp.data.verses })
+        this.setState({
+          verses: resp.data.verses,
+          loading: false,
+          reference: {
+            book: resp.data.book.name,
+            chapter: resp.data.chapter.number,
+          },
+        })
       })
-      .catch((e) => console.log(e))
+      .catch((e) => {
+        this.setState({ loading: false, error: true })
+      })
   }
 
   render() {
+    const { reference } = this.state
     return (
       <ScrollView style={styles.root}>
+        {this.state.loading ? <ActivityIndicator /> : null}
+        {this.state.error ? (
+          <Text style={styles.error}>Referência não encontrada</Text>
+        ) : null}
+        {reference ? (
+          <Text
+            fontWeight="bold"
+            style={styles.reference}
+          >{`${reference.book} ${reference.chapter}`}</Text>
+        ) : null}
         {this.state.verses.map((v) => (
           <Text style={styles.text}>
             <Text style={styles.number}>{`${v.number}  `}</Text>

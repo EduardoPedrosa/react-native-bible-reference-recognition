@@ -6,6 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context"
 import theme from "@utils/theme/theme"
 
 import NavigationContainer from "@config/NavigationContainer"
+import ReduxProvider from "@config/ReduxProvider"
 import Navigator from "@config/routes"
 import setDefaultStyles from "@config/setDefaultStyles"
 
@@ -13,15 +14,17 @@ setDefaultStyles()
 
 const App = () => {
   return (
-    <SafeAreaProvider>
-      <SafeAreaView style={{ flex: 1 }}>
-        <PaperProvider theme={theme}>
-          <NavigationContainer>
-            <Navigator />
-          </NavigationContainer>
-        </PaperProvider>
-      </SafeAreaView>
-    </SafeAreaProvider>
+    <ReduxProvider>
+      <SafeAreaProvider>
+        <SafeAreaView style={{ flex: 1 }}>
+          <PaperProvider theme={theme}>
+            <NavigationContainer theme={theme}>
+              <Navigator />
+            </NavigationContainer>
+          </PaperProvider>
+        </SafeAreaView>
+      </SafeAreaProvider>
+    </ReduxProvider>
   )
 }
 

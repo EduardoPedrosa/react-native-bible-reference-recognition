@@ -4,22 +4,29 @@ import { RNCamera } from "react-native-camera"
 
 import FABButton from "./FABButton"
 
+import biblicalReferenceRegex from "@utils/regex/biblicalReferenceRegex"
+import sleep from "@utils/sleep"
+import colors from "@utils/theme/colors"
+
 import RootNavigation from "@config/RootNavigation"
 
 const { width: WIDTH, height: HEIGHT } = Dimensions.get("window")
 
-const CAM_HEIGHT = WIDTH * 1.5
+const DELAY_TIME = 3000
+// const CAM_HEIGHT = WIDTH * 1.5
+const CAM_HEIGHT = HEIGHT
 const CAM_WIDTH = WIDTH
 
 const RECT_WIDTH = 300
 const RECT_HEIGHT = 100
-const ERROR_MARGIN = 25
+
+// const ERROR_MARGIN = 25
+const ERROR_MARGIN = 0
 
 const styles = StyleSheet.create({
   root: {
     width: "100%",
     height: "100%",
-    justifyContent: "center",
     alignItems: "center",
   },
   container: {
@@ -34,9 +41,9 @@ const styles = StyleSheet.create({
   },
   rectOfInterest: {
     position: "absolute",
-    borderColor: "#0d47a1",
+    borderColor: colors.primary,
     borderWidth: 5,
-    borderRadius: 4,
+    borderRadius: 24,
     height: RECT_HEIGHT,
     width: RECT_WIDTH,
   },
@@ -53,11 +60,15 @@ const styles = StyleSheet.create({
   },
 })
 
-export default class OCRScreen extends React.Component {
+export default class Camera extends React.Component {
+  constructor(props) {
+    super(props)
+    this.waiting = false
+  }
+
   state = {
     canDetectText: true,
     reference: "",
-    camTop: 0,
   }
 
   renderCamera = () => {
@@ -88,8 +99,8 @@ export default class OCRScreen extends React.Component {
   }
 
   getCenterCoordinates = (bounds) => {
-    const x = (bounds.size.width + bounds.origin.x) / 2
-    const y = (bounds.size.height + bounds.origin.y) / 2
+    const x = bounds.size.width / 2 + bounds.origin.x
+    const y = bounds.size.height / 2 + bounds.origin.y
     return { x, y }
   }
 
@@ -100,9 +111,8 @@ export default class OCRScreen extends React.Component {
     const xRight = xCenter + RECT_WIDTH / 2 + ERROR_MARGIN
     if (x > xLeft && x < xRight) {
       const yCenter = CAM_HEIGHT / 2
-      const yUp = yCenter - RECT_HEIGHT / 2 - ERROR_MARGIN - this.state.camTop
-      const yDown = yCenter + RECT_HEIGHT / 2 + ERROR_MARGIN - this.state.camTop
-      // console.log(y, yUp, yDown)
+      const yUp = yCenter - RECT_HEIGHT / 2 - ERROR_MARGIN
+      const yDown = yCenter + RECT_HEIGHT / 2 + ERROR_MARGIN
       if (y > yUp && y < yDown) {
         return true
       }
@@ -110,26 +120,53 @@ export default class OCRScreen extends React.Component {
     return false
   }
 
-  textRecognized = (resp) => {
+  canExecute = async () => {
+    if (this.waiting) {
+      return false
+    }
+    this.waiting = true
+    await sleep(DELAY_TIME)
+    this.waiting = false
+    return true
+  }
+
+  // Distancia do ponto até o central que é (0, RECT_HEIGHT/2)
+  pointsDistance = (point) => {
+    const xCenter = 0
+    const yCenter = RECT_WIDTH / 2
+    const distance = Math.sqrt(
+      Math.pow(point.x - xCenter, 2) + Math.pow(point.y - yCenter, 2)
+    )
+    return distance
+  }
+
+  // Rever retorno dos pontos pelo algoritmo (significado do x e y)
+  sortBlocks = (a, b) => {
+    const distanceA = this.pointsDistance(this.getCenterCoordinates(a.bounds))
+    const distanceB = this.pointsDistance(this.getCenterCoordinates(b.bounds))
+
+    return distanceB - distanceA
+  }
+
+  textRecognized = async (resp) => {
     const { textBlocks } = resp
-    let founded = false
-    textBlocks.forEach((block) => {
-      const biblicalRegex =
-        /(\d)?(\s)?[a-z, A-Z]{1,3}(\s)?(\d+)([:\.](\d+)([-,](\d+))?)?/
+    const sortedTextBlocks = textBlocks.slice().sort(this.sortBlocks)
+    for (const block of sortedTextBlocks) {
       const value = block.value
       if (this.isInRectOfInterest(block.bounds)) {
-        if (biblicalRegex.test(value)) {
-          const match = value.match(biblicalRegex)
+        if (biblicalReferenceRegex.test(value)) {
+          // Impede de setar o estado (intervalo mínimo entre execuções é de DELAY_TIME)
+          if (!(await this.canExecute())) return
+
+          const match = value.match(biblicalReferenceRegex)
           this.setState({
-            reference: match[0],
+            reference: match[0] && match[0].trim(),
           })
-          founded = true
+          return
         }
       }
-    })
-    if (!founded) {
-      this.setState({ reference: "" })
     }
+    this.setState({ reference: "" })
   }
 
   renderTextBlocks = () => {
@@ -145,14 +182,7 @@ export default class OCRScreen extends React.Component {
   render() {
     return (
       <View style={styles.root}>
-        <View
-          style={styles.container}
-          onLayout={(event) =>
-            this.setState({ camTop: event.nativeEvent.layout.y })
-          }
-        >
-          {this.renderCamera()}
-        </View>
+        <View style={styles.container}>{this.renderCamera()}</View>
         {this.state.reference ? (
           <FABButton
             onPress={this.goToReference}

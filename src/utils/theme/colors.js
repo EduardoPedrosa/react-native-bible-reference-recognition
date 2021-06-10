@@ -6,10 +6,10 @@ export default {
   success: "#73C322",
   error: "#D4111B",
   warning: "#FFAB1A",
-  background: "#ccffeb",
-
+  background: "#F2F2F3",
   primaryText: "#1F262E",
   secondaryText: "#414C58",
-  bodyText: "#C8CCD0",
   lightText: "#F2F2F3",
+  lightGray: "#C8CCD0",
+  white: "#fff",
 }
